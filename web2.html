@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Types of Flowers</title>
+    <link rel="stylesheet" href="web2.css">
+	<style>
+		/* Add some basic styling to make the page look decent */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {
+			background-color: #f1f1f1;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		.dropdown:hover .dropbtn {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Types of Flowers</h1>
+	<div class="dropdown">
+		<button class="dropbtn">Select a Type of Flower</button>
+		<div class="dropdown-content">
+			<a href="ros.html">Roses</a>
+			<a href="lil.html">Lilies</a>
+			<a href="sun.html">Sunflowers</a>
+			<a href="dais.html">Daisies</a>
+			<a href="orc.html">Orchids</a>
+		</div>
+	</div>
+	
+	<!-- Content sections for each type of flower -->
+	<section id="roses">
+		<h2>Roses</h2>
+		<p>Roses are a classic choice for romantic occasions.</p>
+		<img src="C:\Users\ciban\OneDrive\Pictures\rose.jpeg" alt="Rose">
+	</section>
+	
+	<section id="lilies">
+		<h2>Lilies</h2>
+		<p>Lilies are known for their elegant and trumpet-shaped blooms.</p>
+		<img src="C:\Users\ciban\OneDrive\Pictures\lily.jpeg" alt="Lily">
+	</section>
+	
+	<section id="sunflowers">
+		<h2>Sunflowers</h2>
+		<p>Sunflowers are bright and cheerful, and often symbolize warmth and happiness.</p>
+		<img src="C:\Users\ciban\OneDrive\Pictures\sunflower.jpeg" alt="Sunflower">
+	</section>
+	
+	<section id="daisies">
+		<h2>Daisies</h2>
+		<p>Daisies are a classic and simple flower, often associated with innocence and purity.</p>
+		<img src="C:\Users\ciban\OneDrive\Pictures\daisy.jpeg" alt="Daisy">
+	</section>
+	
+	<section id="orchids">
+		<h2>Orchids</h2>
+		<p>Orchids are exotic and elegant, and often symbolize luxury and beauty.</p>
+		<img src="C:\Users\ciban\OneDrive\Pictures\orchid.jpg" alt="Orchid">
+	</section>
+	
+</body>
+</html>
